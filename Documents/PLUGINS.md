@@ -3,6 +3,8 @@
 
 # Writing a plugin
 
+> Part of the prehistory of Tazel, kept as it was; see the [README](../README.md).
+
 A plugin is a JAR that extends the project DSL. It can add blocks a project file uses, such as `cmake { }`, add steps to
 the build of the project, record values in its plan and check the project once it is complete. This page shows how a
 plugin is built, how Tazel finds and verifies it, and what it may do once it runs.

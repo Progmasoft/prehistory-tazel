@@ -1,15 +1,18 @@
 <!-- SPDX-FileCopyrightText: 2026 Progmasoft <support@progmasoft.com> -->
 <!-- SPDX-License-Identifier: MPL-2.0 WITH AdditionRef-Progmasoft-Exception-2.0 -->
 
-# Tazel (legacy)
+# Prehistory of Tazel
 
-> **This repository is archived.** It holds the earlier Tazel, the build system of Tala, from `tazel-0.1.0` to
-> `tazel-0.4.0.3`. Tala and its tools are no longer developed (2026-11-10). Tazel starts again at 0.1.0 in
-> [Progmasoft/tazel](https://github.com/Progmasoft/tazel), as a build system and package manager for C, C++,
-> Objective-C, Objective-C++ and Zig, with `MODULE.kts` and `BUILD.kts` project files. The text below describes the
-> earlier Tazel.
+> **This repository is archived and read-only.** It is the prehistory of Tazel: the build system of Tala, written in
+> Kotlin for the JVM, from `tazel-0.1.0` to `tazel-0.4.0.3` (2026-10-18 to 2026-11-04). It is not developed, and its
+> releases are not those of [Tazel](https://github.com/Progmasoft/tazel), whose versions count on their own. Tala and
+> its tools are no longer developed either (2026-11-10). The text below describes this repository as it was.
+>
+> The services this text names are gone: tazel.tala.run, tala.run and talac.tala.run, ViGet
+> (`viget.progmasoft.com`) and `maven.progmasoft.com/tazel`. A plugin, a package or the plugin API cannot be
+> fetched from them any more.
 
-Tazel is a build system and package manager with a Kotlin project file. It builds [Tala](https://tala.run/) targets
+Tazel is a build system and package manager with a Kotlin project file. It builds [Tala](https://github.com/Progmasoft/tala) targets
 with Talac, and other languages through plugins, such as C and C++ with Progmasoft.CC or a CMake project with
 Progmasoft.CMake; a project without Tala targets needs none of the Tala tools. The name joins Tala and Bazel.
 It moved from the [compiler repository](https://github.com/Progmasoft/tala) with its history on 2026-10-18.
@@ -36,7 +39,7 @@ tazel lint -- --fix
 - [How Tazel works](Documents/ARCHITECTURE.md): one command followed through the code.
 - [Contributing](CONTRIBUTING.md): checks, tests, conventions, adding a command, releases.
 
-The site of Tazel is [tazel.tala.run](https://tazel.tala.run/).
+The site of this Tazel was tazel.tala.run, which is gone.
 
 ## Layout
 
