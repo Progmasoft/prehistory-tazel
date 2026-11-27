@@ -3,6 +3,10 @@
 
 # Contributing to Tazel
 
+> This repository is archived and takes no changes: no issues, pull requests or releases. It is the prehistory of
+> Tazel; [Progmasoft/tazel](https://github.com/Progmasoft/tazel) has its own contributing guide. The text below is kept
+> as it was.
+
 Tazel is the build system and package manager of Tala. This page covers what a change needs: the tools, the checks CI
 runs, where tests go and the conventions the code follows. [How Tazel works](Documents/ARCHITECTURE.md) explains the
 code itself.

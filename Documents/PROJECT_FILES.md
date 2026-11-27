@@ -3,6 +3,8 @@
 
 # Project files
 
+> Part of the prehistory of Tazel, kept as it was; see the [README](../README.md).
+
 A project is described by one file, a Kotlin script that [Tazel](CLI.md) evaluates. Tazel reads it, finds the
 sources it names and starts the tools that build them; those tools never see a project file.
 

@@ -3,6 +3,8 @@
 
 # Changelog
 
+> The changes of the prehistory of Tazel, kept as they were; see the [README](README.md).
+
 ## Unreleased
 
 - `tazel run` builds and runs exactly one executable: the one named with `--executable`, the only one of the selection,

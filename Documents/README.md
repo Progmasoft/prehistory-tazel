@@ -3,6 +3,12 @@
 
 # Tazel documentation
 
+> This is the documentation of the prehistory of Tazel, kept as it was; see the [README](../README.md).
+>
+> The services this text names are gone: tazel.tala.run, tala.run and talac.tala.run, ViGet
+> (`viget.progmasoft.com`) and `maven.progmasoft.com/tazel`. A plugin, a package or the plugin API cannot be
+> fetched from them any more.
+
 | To | Read |
 | --- | --- |
 | run a command, select targets, pass arguments to a tool | [The `tazel` command](CLI.md) |
@@ -14,5 +20,4 @@
 | build, test and change Tazel | [Contributing](../CONTRIBUTING.md) |
 | see what changed between versions | [Changelog](../CHANGELOG.md) |
 
-The site of Tazel is [tazel.tala.run](https://tazel.tala.run/). The compiler, Talac, has its own reference at
-[talac.tala.run](https://talac.tala.run/docs/command-line).
+The site of this Tazel was tazel.tala.run, and the reference of the compiler, Talac, talac.tala.run; both are gone.

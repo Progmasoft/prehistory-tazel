@@ -3,8 +3,10 @@
 
 # The `tazel` command
 
+> Part of the prehistory of Tazel, kept as it was; see the [README](../README.md).
+
 Tazel starts the tools of a project as separate programs: Talac, `talafmt` and `talalint` for Tala targets, and the
-programs the steps of plugins name. The command lines of the Tala tools are described with them: [Talac](https://talac.tala.run/docs/command-line), and the READMEs of [talafmt](https://github.com/Progmasoft/talafmt) and [talalint](https://github.com/Progmasoft/talalint).
+programs the steps of plugins name. The command lines of the Tala tools are described with them: Talac (its reference, talac.tala.run, is gone), and the READMEs of [talafmt](https://github.com/Progmasoft/talafmt) and [talalint](https://github.com/Progmasoft/talalint).
 Exit codes are shared: `0` success, `1` the work failed, `2` the command line itself was wrong. `tazel run`
 hands through the exit code of the program it ran.
 

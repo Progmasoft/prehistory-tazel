@@ -3,6 +3,8 @@
 
 # The lockfile
 
+> Part of the prehistory of Tazel, kept as it was; see the [README](../README.md).
+
 `LOCK.sqlite3` lies beside the project file. It is an SQLite database that records what the project declares: its
 dependencies, with their features, and the plugins that evaluated the project file, with the digest of each JAR. It
 records declarations, not a solved dependency graph; Tazel cannot fetch packages from ViGet yet, so there is nothing to
